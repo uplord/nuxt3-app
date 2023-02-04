@@ -11,5 +11,5 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="alert" :class="type">{{ message }}</div>
+  <div class="alert" :class="type"><span>{{ message }}</span></div>
 </template>
